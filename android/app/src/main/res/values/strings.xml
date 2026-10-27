@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">lozef</string>
+    <string name="app_name">Lozef</string>
+    <string name="accessibility_service_label">Lozef Agent Service</string>
+    <string name="accessibility_service_description">Lozef uses accessibility services to analyze screen elements and automate app tasks on your command.</string>
 </resources>
