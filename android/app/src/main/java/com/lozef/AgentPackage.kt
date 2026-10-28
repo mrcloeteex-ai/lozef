@@ -13,6 +13,4 @@ class AgentPackage : ReactPackage {
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
         return emptyList()
     }
-}      return emptyList()
-    }
 }
