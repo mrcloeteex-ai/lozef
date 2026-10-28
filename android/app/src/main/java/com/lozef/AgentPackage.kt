@@ -1,9 +1,9 @@
-package com.lozef.app
+package com.lozef
 
-com.facebook.react.ReactPackage
-com.facebook.react.bridge.NativeModule
-com.facebook.react.bridge.ReactApplicationContext
-com.facebook.react.uimanager.ViewManager
+import com.facebook.react.ReactPackage
+import com.facebook.react.bridge.NativeModule
+import com.facebook.react.bridge.ReactApplicationContext
+import com.facebook.react.uimanager.ViewManager
 
 class AgentPackage : ReactPackage {
     override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
@@ -12,5 +12,7 @@ class AgentPackage : ReactPackage {
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
         return emptyList()
+    }
+}      return emptyList()
     }
 }
